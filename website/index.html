@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CompTIA Hub — Free Study Resources</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f1117;
+      color: #e0e0e0;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #1a1d27;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #e8132a;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #ffffff;
+    }
+
+    header h1 span { color: #e8132a; }
+
+    header p {
+      color: #888;
+      margin-top: 0.5rem;
+    }
+
+    .controls {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      min-width: 200px;
+      padding: 0.6rem 1rem;
+      border-radius: 6px;
+      border: 1px solid #333;
+      background: #1a1d27;
+      color: #fff;
+      font-size: 0.95rem;
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .filter-btn {
+      padding: 0.4rem 0.9rem;
+      border-radius: 20px;
+      border: 1px solid #444;
+      background: #1a1d27;
+      color: #aaa;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .filter-btn:hover { border-color: #e8132a; color: #fff; }
+    .filter-btn.active { background: #e8132a; border-color: #e8132a; color: #fff; }
+
+    .stats {
+      max-width: 1100px;
+      margin: 0 auto 1rem;
+      padding: 0 1rem;
+      color: #555;
+      font-size: 0.85rem;
+    }
+
+    .grid {
+      max-width: 1100px;
+      margin: 0 auto 3rem;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.2rem;
+    }
+
+    .card {
+      background: #1a1d27;
+      border: 1px solid #2a2d3a;
+      border-radius: 10px;
+      padding: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      transition: border-color 0.2s;
+    }
+
+    .card:hover { border-color: #e8132a; }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .card h3 {
+      font-size: 0.95rem;
+      color: #fff;
+      line-height: 1.4;
+      word-break: break-word;
+    }
+
+    .source-badge {
+      font-size: 0.7rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      white-space: nowrap;
+      font-weight: bold;
+    }
+
+    .source-GitHub { background: #238636; color: #fff; }
+    .source-Reddit { background: #ff4500; color: #fff; }
+
+    .card p {
+      font-size: 0.82rem;
+      color: #888;
+      line-height: 1.5;
+    }
+
+    .exam-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+
+    .exam-tag {
+      font-size: 0.7rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      background: #252836;
+      color: #aaa;
+      border: 1px solid #333;
+    }
+
+    .card-footer {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card a {
+      font-size: 0.82rem;
+      color: #e8132a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .card a:hover { text-decoration: underline; }
+
+    .score {
+      font-size: 0.75rem;
+      color: #555;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 4rem;
+      color: #555;
+      grid-column: 1/-1;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>CompTIA <span>Hub</span></h1>
+  <p>Free study resources for CompTIA certifications — aggregated from GitHub & Reddit</p>
+</header>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="Search resources..." oninput="render()" />
+  <div class="filters" id="exam-filters"></div>
+  <div class="filters" id="source-filters"></div>
+</div>
+
+<div class="stats" id="stats"></div>
+<div class="grid" id="grid"></div>
+
+<script>
+  let allResources = [];
+  let activeExam = "All";
+  let activeSource = "All";
+
+  const EXAMS = ["All", "CySA+", "Security+", "Network+", "A+", "CASP+", "PenTest+", "General"];
+  const SOURCES = ["All", "GitHub", "Reddit", "YouTube", "ExamCompass"];
+
+  async function loadData() {
+    const res = await fetch("../data/all_resources.json");
+    allResources = await res.json();
+    buildFilters();
+    render();
+  }
+
+  function buildFilters() {
+    const examEl = document.getElementById("exam-filters");
+    EXAMS.forEach(exam => {
+      const btn = document.createElement("button");
+      btn.className = "filter-btn" + (exam === "All" ? " active" : "");
+      btn.textContent = exam;
+      btn.onclick = () => {
+        activeExam = exam;
+        document.querySelectorAll("#exam-filters .filter-btn")
+          .forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        render();
+      };
+      examEl.appendChild(btn);
+    });
+
+    const sourceEl = document.getElementById("source-filters");
+    SOURCES.forEach(source => {
+      const btn = document.createElement("button");
+      btn.className = "filter-btn" + (source === "All" ? " active" : "");
+      btn.textContent = source;
+      btn.onclick = () => {
+        activeSource = source;
+        document.querySelectorAll("#source-filters .filter-btn")
+          .forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        render();
+      };
+      sourceEl.appendChild(btn);
+    });
+  }
+
+  function render() {
+    const query = document.getElementById("search").value.toLowerCase();
+
+    const filtered = allResources.filter(r => {
+      const matchExam = activeExam === "All" || r.exams.includes(activeExam);
+      const matchSource = activeSource === "All" || r.source === activeSource;
+      const matchSearch = !query ||
+        r.title.toLowerCase().includes(query) ||
+        r.description.toLowerCase().includes(query);
+      return matchExam && matchSource && matchSearch;
+    });
+
+    document.getElementById("stats").textContent =
+      `Showing ${filtered.length} of ${allResources.length} resources`;
+
+    const grid = document.getElementById("grid");
+    grid.innerHTML = "";
+
+    if (filtered.length === 0) {
+      grid.innerHTML = `<div class="no-results">No resources found. Try a different filter or search.</div>`;
+      return;
+    }
+
+    filtered.forEach(r => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <div class="card-top">
+          <h3>${r.title}</h3>
+          <span class="source-badge source-${r.source}">${r.source}</span>
+        </div>
+        <p>${r.description.slice(0, 120)}${r.description.length > 120 ? "..." : ""}</p>
+        <div class="exam-tags">
+          ${r.exams.map(e => `<span class="exam-tag">${e}</span>`).join("")}
+        </div>
+        <div class="card-footer">
+          <a href="${r.url}" target="_blank" rel="noopener">View Resource →</a>
+          <span class="score">⭐ ${r.score}</span>
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  loadData();
+</script>
+</body>
+</html>
