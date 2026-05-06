@@ -204,7 +204,7 @@
   const SOURCES = ["All", "GitHub", "Reddit", "YouTube", "ExamCompass"];
 
   async function loadData() {
-    const res = await fetch("../data/all_resources.json");
+    const res = await fetch("all_resources.json");
     allResources = await res.json();
     buildFilters();
     render();
