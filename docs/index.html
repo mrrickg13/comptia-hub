@@ -204,7 +204,10 @@
   const SOURCES = ["All", "GitHub", "Reddit", "YouTube", "ExamCompass"];
 
   async function loadData() {
-    const res = await fetch("all_resources.json");
+    const location = window.location.hostname === "localhost"
+	  ? "all_resources.json"
+	  : "/comptia-hub/all_resources.json";
+    const res = await fetch(location);
     allResources = await res.json();
     buildFilters();
     render();
