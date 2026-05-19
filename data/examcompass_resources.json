@@ -1,1 +1,50 @@
-[]
+[][
+  {
+    "title": "ExamCompass CySA+ Practice Test 1",
+    "url": "https://www.examcompass.com/comptia-cysa-plus-certification-practice-test-1",
+    "description": "Free CompTIA CySA+ practice test from ExamCompass",
+    "source": "ExamCompass",
+    "score": 0,
+    "exams": ["CySA+"]
+  },
+  {
+    "title": "ExamCompass Security+ Practice Test 1",
+    "url": "https://www.examcompass.com/comptia-security-plus-certification-practice-test-1",
+    "description": "Free CompTIA Security+ practice test from ExamCompass",
+    "source": "ExamCompass",
+    "score": 0,
+    "exams": ["Security+"]
+  },
+  {
+    "title": "ExamCompass Network+ Practice Test 1",
+    "url": "https://www.examcompass.com/comptia-network-plus-certification-practice-test-1",
+    "description": "Free CompTIA Network+ practice test from ExamCompass",
+    "source": "ExamCompass",
+    "score": 0,
+    "exams": ["Network+"]
+  },
+  {
+    "title": "ExamCompass A+ Core 1 Practice Test 1",
+    "url": "https://www.examcompass.com/comptia-a-plus-core-1-certification-practice-test-1",
+    "description": "Free CompTIA A+ Core 1 practice test from ExamCompass",
+    "source": "ExamCompass",
+    "score": 0,
+    "exams": ["A+"]
+  },
+  {
+    "title": "ExamCompass A+ Core 2 Practice Test 1",
+    "url": "https://www.examcompass.com/comptia-a-plus-core-2-certification-practice-test-1",
+    "description": "Free CompTIA A+ Core 2 practice test from ExamCompass",
+    "source": "ExamCompass",
+    "score": 0,
+    "exams": ["A+"]
+  },
+  {
+    "title": "ExamCompass CASP+ Practice Test 1",
+    "url": "https://www.examcompass.com/comptia-casp-plus-certification-practice-test-1",
+    "description": "Free CompTIA CASP+ practice test from ExamCompass",
+    "source": "ExamCompass",
+    "score": 0,
+    "exams": ["CASP+"]
+  }
+]
