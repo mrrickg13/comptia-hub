@@ -269,7 +269,8 @@
   let activeSource = "All";
 
   const EXAMS = ["All", "CySA+", "Security+", "Network+", "A+", "CASP+", "PenTest+", "General"];
-  const SOURCES = ["All", "GitHub", "Reddit", "YouTube", "ExamCompass"];
+  const SOURCES = ["All", "GitHub", "Reddit", "YouTube", "ExamCompass"]
+  let showSaved = false;
 
   async function loadData() {
     const res = await fetch("all_resources.json");
@@ -308,10 +309,22 @@
       };
       sourceEl.appendChild(btn);
     });
+    const savedBtn = document.createElement("button");
+    savedBtn.className = "filter-btn";
+    savedBtn.id = "saved-btn";
+    savedBtn.textContent = "🔖 Saved (0)";
+    savedBtn.onclick = () => {
+      showSaved = !showSaved;
+      savedBtn.classList.toggle("active", showSaved);
+      render();
+    };
+    sourceEl.appendChild(savedBtn);
   }
 
   function render() {
     const query = document.getElementById("search").value.toLowerCase();
+
+    const saved = JSON.parse(localStorage.getItem("saved_resources") || "[]");
 
     const filtered = allResources.filter(r => {
       const matchExam = activeExam === "All" || r.exams.includes(activeExam);
@@ -319,8 +332,13 @@
       const matchSearch = !query ||
         r.title.toLowerCase().includes(query) ||
         r.description.toLowerCase().includes(query);
-      return matchExam && matchSource && matchSearch;
+      const matchSaved = !showSaved || saved.includes(r.url);
+      return matchExam && matchSource && matchSearch && matchSaved;
     });
+
+    // Update saved button count
+    const savedBtn = document.getElementById("saved-btn");
+    if (savedBtn) savedBtn.textContent = `🔖 Saved (${saved.length})`;
 
     document.getElementById("stats").textContent =
       `Showing ${filtered.length} of ${allResources.length} resources`;
@@ -336,6 +354,8 @@
     filtered.forEach(r => {
       const card = document.createElement("div");
       card.className = "card";
+      
+      const isSaved = saved.includes(r.url);
       card.innerHTML = `
         <div class="card-top">
           <h3>${r.title}</h3>
@@ -347,11 +367,30 @@
         </div>
         <div class="card-footer">
           <a href="${r.url}" target="_blank" rel="noopener">View Resource →</a>
-          <span class="score">⭐ ${r.score}</span>
+          <div style="display:flex; align-items:center; gap:0.5rem;">
+            <span class="score">⭐ ${r.score}</span>
+            <button onclick="toggleSave('${r.url.replace(/'/g, "\\'")}')" 
+              style="background:none; border:1px solid ${isSaved ? '#e8132a' : '#444'}; 
+              border-radius:4px; padding:0.2rem 0.5rem; cursor:pointer; 
+              color:${isSaved ? '#e8132a' : '#555'}; font-size:0.75rem;">
+              ${isSaved ? '🔖 Saved' : '+ Save'}
+            </button>
+          </div>
         </div>
       `;
       grid.appendChild(card);
     });
+  }
+
+function toggleSave(url) {
+    let saved = JSON.parse(localStorage.getItem("saved_resources") || "[]");
+    if (saved.includes(url)) {
+      saved = saved.filter(u => u !== url);
+    } else {
+      saved.push(url);
+    }
+    localStorage.setItem("saved_resources", JSON.stringify(saved));
+    render();
   }
 
   loadData();
@@ -367,6 +406,4 @@
 </footer>  
 </body>
 </html>
-
-
 
