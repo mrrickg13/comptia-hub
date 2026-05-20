@@ -1,0 +1,51 @@
+name: Weekly Scrape
+
+on:
+  schedule:
+    - cron: '0 2 * * 0'  # Every Sunday at 2am UTC
+  workflow_dispatch:       # Also allows manual trigger from GitHub
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd scraper
+          pip install requests beautifulsoup4 PyGithub praw python-dotenv google-api-python-client
+
+      - name: Run scrapers
+        env:
+          SCRAPER_GITHUB_TOKEN: ${{ secrets.SCRAPER_GITHUB_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          cd scraper
+          python3 github_scraper.py
+          python3 reddit_scraper.py
+          python3 youtube_scraper.py
+
+      - name: Run combiner
+        run: |
+          cd scraper
+          python3 combine.py
+
+      - name: Copy data to docs
+        run: |
+          cp data/all_resources.json docs/all_resources.json
+
+      - name: Commit and push fresh data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add docs/all_resources.json
+          git diff --staged --quiet || git commit -m "auto: weekly scrape update"
+          git push
