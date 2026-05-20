@@ -1,3 +1,4 @@
 venv/
+scraper/.env
 *.pyc
 __pycache__/
