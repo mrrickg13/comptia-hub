@@ -4,7 +4,7 @@
     "url": "https://github.com/hmaverickadams/Beginner-Network-Pentesting",
     "description": "Notes for Beginner Network Pentesting Course",
     "source": "GitHub",
-    "score": 6376,
+    "score": 6387,
     "exams": [
       "Network+"
     ],
@@ -15,7 +15,7 @@
     "url": "https://github.com/amanchadha/coursera-deep-learning-specialization",
     "description": "Notes, programming assignments and quizzes from all courses within the Coursera Deep Learning specialization offered by deeplearning.ai: (i) Neural Networks and Deep Learning; (ii) Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization; (iii) Structuring Machine Learning Projects; (iv) Convolutional Neural Networks; (v) Sequence Models",
     "source": "GitHub",
-    "score": 4387,
+    "score": 4396,
     "exams": [
       "Network+"
     ],
@@ -26,7 +26,7 @@
     "url": "https://github.com/ChristianLempa/homelab",
     "description": "This is my entire homelab documentation files. Here you'll find notes, setups, and configurations for infrastructure, applications, networking, and more.",
     "source": "GitHub",
-    "score": 2135,
+    "score": 2138,
     "exams": [
       "Network+"
     ],
@@ -59,7 +59,7 @@
     "url": "https://github.com/notescs/notes",
     "description": "Notes on OOPS and Computer Networks",
     "source": "GitHub",
-    "score": 325,
+    "score": 331,
     "exams": [
       "Network+"
     ],
@@ -150,7 +150,7 @@
     "url": "https://github.com/jackklin2002/Security-701-Study-Material",
     "description": "Welcome to the Sec+ 701 Study Guide repository! This collection provides materials for the CompTIA Security+ (SY0-701) exam, including attack methods, key terms, and an Excel study sheet. Clone the repository to aid your exam preparation. Good luck!",
     "source": "GitHub",
-    "score": 18,
+    "score": 17,
     "exams": [
       "Security+"
     ],
@@ -179,9 +179,9 @@
     "external_links": []
   },
   {
-    "title": "M-F-Tushar/CompTIA-A-Core-1-220-1101-Complete-Course",
-    "url": "https://github.com/M-F-Tushar/CompTIA-A-Core-1-220-1101-Complete-Course",
-    "description": "Comprehensive notes and resources for the CompTIA A+ Core 1 (220-1101) certification exam, including key concepts, practice questions, and hands-on labs.",
+    "title": "rick-rami94/secai-plus-study-guide",
+    "url": "https://github.com/rick-rami94/secai-plus-study-guide",
+    "description": "Unofficial one-stop study resource for CompTIA SecAI+ (CY0-001): study guide, 3x60-question practice exams with explanations, 210+ Anki flashcards, cheat sheets & a study plan \u2014 structured to the official exam objectives.",
     "source": "GitHub",
     "score": 10,
     "exams": [
@@ -190,11 +190,11 @@
     "external_links": []
   },
   {
-    "title": "rick-rami94/secai-plus-study-guide",
-    "url": "https://github.com/rick-rami94/secai-plus-study-guide",
-    "description": "Unofficial one-stop study resource for CompTIA SecAI+ (CY0-001): study guide, 3x60-question practice exams with explanations, 210+ Anki flashcards, cheat sheets & a study plan \u2014 structured to the official exam objectives.",
+    "title": "M-F-Tushar/CompTIA-A-Core-1-220-1101-Complete-Course",
+    "url": "https://github.com/M-F-Tushar/CompTIA-A-Core-1-220-1101-Complete-Course",
+    "description": "Comprehensive notes and resources for the CompTIA A+ Core 1 (220-1101) certification exam, including key concepts, practice questions, and hands-on labs.",
     "source": "GitHub",
-    "score": 8,
+    "score": 10,
     "exams": [
       "A+"
     ],
@@ -234,6 +234,17 @@
     "external_links": []
   },
   {
+    "title": "MrJanHorak/CompTIA_APlus_Study_Repository",
+    "url": "https://github.com/MrJanHorak/CompTIA_APlus_Study_Repository",
+    "description": "A resource to help students review, refresh and practice topics to help prepare for CompTIA A+ Core 1 and Core 2 exams",
+    "source": "GitHub",
+    "score": 5,
+    "exams": [
+      "A+"
+    ],
+    "external_links": []
+  },
+  {
     "title": "cryptorootoficial/comptia-security",
     "url": "https://github.com/cryptorootoficial/comptia-security",
     "description": "Security+ & CySA+ and more certs study references",
@@ -265,6 +276,18 @@
     "score": 4,
     "exams": [
       "Security+"
+    ],
+    "external_links": []
+  },
+  {
+    "title": "MrJanHorak/CompTIA_NetworkPlus_Study_Repository",
+    "url": "https://github.com/MrJanHorak/CompTIA_NetworkPlus_Study_Repository",
+    "description": "A resource to help students review, refresh and practice topics to help prepare for CompTIA Network+ exams",
+    "source": "GitHub",
+    "score": 4,
+    "exams": [
+      "Network+",
+      "A+"
     ],
     "external_links": []
   },
@@ -319,29 +342,6 @@
     "source": "GitHub",
     "score": 3,
     "exams": [
-      "A+"
-    ],
-    "external_links": []
-  },
-  {
-    "title": "MrJanHorak/CompTIA_APlus_Study_Repository",
-    "url": "https://github.com/MrJanHorak/CompTIA_APlus_Study_Repository",
-    "description": "A resource to help students review, refresh and practice topics to help prepare for CompTIA A+ Core 1 and Core 2 exams",
-    "source": "GitHub",
-    "score": 3,
-    "exams": [
-      "A+"
-    ],
-    "external_links": []
-  },
-  {
-    "title": "MrJanHorak/CompTIA_NetworkPlus_Study_Repository",
-    "url": "https://github.com/MrJanHorak/CompTIA_NetworkPlus_Study_Repository",
-    "description": "A resource to help students review, refresh and practice topics to help prepare for CompTIA Network+ exams",
-    "source": "GitHub",
-    "score": 3,
-    "exams": [
-      "Network+",
       "A+"
     ],
     "external_links": []
@@ -670,18 +670,6 @@
     ]
   },
   {
-    "title": "How to PASS the CompTIA CySA+ On Your FIRST Try! | Tips on Passing the CS0-003 Certification!",
-    "url": "https://www.youtube.com/watch?v=mL9NLLBqcVM",
-    "description": "Hello! In This video, I'll show you the best study methods and tips to pass the CompTIA Cybersecurity Analyst (CySA+) exam.",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "CySA+ study guide",
-    "exams": [
-      "CySA+",
-      "A+"
-    ]
-  },
-  {
     "title": "CompTIA CySA+ 30 Question Practice Exam - Part 1",
     "url": "https://www.youtube.com/watch?v=Yzues342mR0",
     "description": "In this video, I walk you through 30 real time CompTIA CySA+ (CS0-003) practice questions formatted like the ones you'll see on ...",
@@ -706,9 +694,9 @@
     ]
   },
   {
-    "title": "CompTIA CySA+ 30 Questions Practice Exam - Part 2",
-    "url": "https://www.youtube.com/watch?v=dle9SnA5D_U",
-    "description": "In this video, I walk you through 30 more real time CompTIA CySA+ (CS0-003) practice questions again, formatted like the ones ...",
+    "title": "How to Study for the CompTIA CySA+ (and Pass the First Time)",
+    "url": "https://www.youtube.com/watch?v=PGMoVrwb1fc",
+    "description": "In this video, I share exactly how I passed the CompTIA CySA+ (CS0-003) exam on my first try, including a breakdown of my ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CySA+ study guide",
@@ -718,9 +706,21 @@
     ]
   },
   {
-    "title": "How to Study for the CompTIA CySA+ (and Pass the First Time)",
-    "url": "https://www.youtube.com/watch?v=PGMoVrwb1fc",
-    "description": "In this video, I share exactly how I passed the CompTIA CySA+ (CS0-003) exam on my first try, including a breakdown of my ...",
+    "title": "How to PASS the CompTIA CySA+ in 2026! | Tips on Passing the CS0-004 Certification!",
+    "url": "https://www.youtube.com/watch?v=mL9NLLBqcVM",
+    "description": "Hello! In This video, I'll show you the best study methods and tips to pass the CompTIA Cybersecurity Analyst (CySA+) exam.",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "CySA+ study guide",
+    "exams": [
+      "CySA+",
+      "A+"
+    ]
+  },
+  {
+    "title": "CompTIA CySA+ 30 Questions Practice Exam - Part 2",
+    "url": "https://www.youtube.com/watch?v=dle9SnA5D_U",
+    "description": "In this video, I walk you through 30 more real time CompTIA CySA+ (CS0-003) practice questions again, formatted like the ones ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CySA+ study guide",
@@ -779,9 +779,9 @@
     ]
   },
   {
-    "title": "Free CySA+ Practice Questions (With Full Explanations)",
-    "url": "https://www.youtube.com/watch?v=DJOq-vq3a7s",
-    "description": "Get ready to ace the CompTIA CySA+ (Cybersecurity Analyst) CS0-003 exam with 15 free CySA+ practice questions and full ...",
+    "title": "CySA+ CS0-003 Exam Prep: 100 Ultra-Hard Questions (SOC Scenarios You\u2019ll Probably Miss!) \ud83d\udd25",
+    "url": "https://www.youtube.com/watch?v=ZF-3q-8AXWY",
+    "description": "Ready to pass the CompTIA CySA+ CS0-003 exam on your first try? This video is packed with 100 ultra-hard, exam-level ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CySA+ practice questions",
@@ -793,7 +793,7 @@
   {
     "title": "CySA+ Exam Questions | CS0-003 Practice Questions and Answers",
     "url": "https://www.youtube.com/watch?v=GV5o3VfsAO4",
-    "description": "Find over 240+ for this exam https://examice.com/comptia/cs0-003 In this video, we'll break down five CySA+ certification ...",
+    "description": "Find over 240+ for this exam ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CySA+ practice questions",
@@ -803,9 +803,9 @@
     ]
   },
   {
-    "title": "Prepsaret CySA+ Practice Questions \u2013 Part 1",
-    "url": "https://www.youtube.com/watch?v=1_wMYmfFlEY",
-    "description": "CySA+ Practice Questions \u2013 Part 1 Ready to pass the CompTIA CySA+ exam? Start with this essential practice session!",
+    "title": "CompTIA CySA+ Practice Exam Part 2",
+    "url": "https://www.youtube.com/watch?v=3-DZa1eVbdA",
+    "description": "In this video I go over CySA+ practice questions based on the CSO-003 exam objectives. You will see my thought process and ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CySA+ practice questions",
@@ -815,21 +815,9 @@
     ]
   },
   {
-    "title": "CompTIA CySA+ Certification Practice Test 2025 (Exam CS0-003) (100 Questions)",
-    "url": "https://www.youtube.com/watch?v=MNbT5YnLAhM",
-    "description": "HOW TO PASS THE CySA+ CompTIA CySA+ Certification Exam (CS0-003) This is a free CySA+ practice test CS0-003.",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "CySA+ practice questions",
-    "exams": [
-      "CySA+",
-      "A+"
-    ]
-  },
-  {
-    "title": "CySA+ CS0-003 Exam Prep: 100 Ultra-Hard Questions (SOC Scenarios You\u2019ll Probably Miss!) \ud83d\udd25",
-    "url": "https://www.youtube.com/watch?v=ZF-3q-8AXWY",
-    "description": "Ready to pass the CompTIA CySA+ CS0-003 exam on your first try? This video is packed with 100 ultra-hard, exam-level ...",
+    "title": "CySA+ Practice Test 2026: Essential Cybersecurity Analyst Exam Questions &amp; Test Prep",
+    "url": "https://www.youtube.com/watch?v=m-ylqKiU4Jc",
+    "description": "Turn study time into pass time with updated quizzes, exam prep packages, and cheat sheets from https://quizzprep.com/. . Master ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CySA+ practice questions",
@@ -853,6 +841,17 @@
     "title": "How to PASS Your Security+ in ONE MONTH | CompTIA Security+ Study Guide For a Complete Beginner",
     "url": "https://www.youtube.com/watch?v=epgQ-sAr0l8",
     "description": "Check out the Christmas deal on iFLYTEK here!",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "CompTIA Security+ free course",
+    "exams": [
+      "Security+"
+    ]
+  },
+  {
+    "title": "FREE CompTIA Security+ Course // SY0-501 vs SY0-601 // EP 0",
+    "url": "https://www.youtube.com/watch?v=yLf2jRY39Rc",
+    "description": "Thanks to CompTIA for sponsoring the first video in my FREE Security+ Course. Get your Security+ voucher: https://bit.ly/3dvPlbG ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CompTIA Security+ free course",
@@ -894,31 +893,9 @@
     ]
   },
   {
-    "title": "FREE CompTIA Security+ Course // SY0-501 vs SY0-601 // EP 0",
-    "url": "https://www.youtube.com/watch?v=yLf2jRY39Rc",
-    "description": "Thanks to CompTIA for sponsoring the first video in my FREE Security+ Course. Get your Security+ voucher: https://bit.ly/3dvPlbG ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "CompTIA Security+ free course",
-    "exams": [
-      "Security+"
-    ]
-  },
-  {
-    "title": "I Passed the CompTIA Security+ Certification in 9 Days",
-    "url": "https://www.youtube.com/watch?v=dHxEd5o_22I",
-    "description": "In this video I walk you guys through how I passed the CompTIA Security+ Exam after studying for 9 days. Resources: Fastest way ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "CompTIA Security+ free course",
-    "exams": [
-      "Security+"
-    ]
-  },
-  {
-    "title": "How I\u2019d Learn CompTIA Security+  (If I Had to Start Over)",
-    "url": "https://www.youtube.com/watch?v=ZPOMd1K0UcI",
-    "description": "CompTIA #SecurityPlus #ITCareers #Cybersecurity #techwithterrence So you're thinking about taking the CompTIA Security+?",
+    "title": "CompTIA Security+ // 2023 Crash Course // 9+ of hours for FREE",
+    "url": "https://www.youtube.com/watch?v=4QEYrPGqd1E",
+    "description": "Want to build a REAL career in AI Governance & GRC? GO HERE: https://cy-ber.pro/ai-grc Want to learn proven frameworks for AI ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CompTIA Security+ free course",
@@ -938,9 +915,9 @@
     ]
   },
   {
-    "title": "It&#39;s Boring But Heres how to pass the Security+",
-    "url": "https://www.youtube.com/watch?v=2cTDRKRQ5oc",
-    "description": "Get my $1000 Tech Course for FREE: https://www.techcareeros.com Want to work with me 1 on 1, fill out an application to work ...",
+    "title": "CompTIA Security + Certification (SY0-701) from CertHub",
+    "url": "https://www.youtube.com/watch?v=vyHnA5TXldM",
+    "description": "Ready to launch your career in cybersecurity? The CompTIA Security+ SY0-701 Certification is your path to success in this ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CompTIA Security+ free course",
@@ -949,12 +926,12 @@
     ]
   },
   {
-    "title": "CompTIA Security+ Full Course",
-    "url": "https://www.youtube.com/watch?v=O4pJeXgOJDs",
-    "description": "In this complete #compTIA #security+ course you will learn everything you need to know about IT / cyber security. Every topic of ...",
+    "title": "I Passed the CompTIA Security+ Certification in 9 Days",
+    "url": "https://www.youtube.com/watch?v=dHxEd5o_22I",
+    "description": "In this video I walk you guys through how I passed the CompTIA Security+ Exam after studying for 9 days. Resources: Fastest way ...",
     "source": "YouTube",
     "score": 0,
-    "topic": "Security+ full course",
+    "topic": "CompTIA Security+ free course",
     "exams": [
       "Security+"
     ]
@@ -963,6 +940,17 @@
     "title": "CompTIA Security+ SY0-701 - Full Course 2026",
     "url": "https://www.youtube.com/watch?v=iBy5PdTpIYs",
     "description": "Prepare for the CompTIA Security+ SY0-701 certification exam with this in-depth video course covering all the CompTIA official ...",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "Security+ full course",
+    "exams": [
+      "Security+"
+    ]
+  },
+  {
+    "title": "CompTIA Security+ Full Course",
+    "url": "https://www.youtube.com/watch?v=O4pJeXgOJDs",
+    "description": "In this complete #compTIA #security+ course you will learn everything you need to know about IT / cyber security. Every topic of ...",
     "source": "YouTube",
     "score": 0,
     "topic": "Security+ full course",
@@ -982,9 +970,9 @@
     ]
   },
   {
-    "title": "CompTIA Security+ SY0-701 Certification Full Course",
-    "url": "https://www.youtube.com/watch?v=LXDOHyhr2kE",
-    "description": "CompTIA Security+ SY0-701 Certification Full Course #TechGee #TechEducation #CompTIA ---------------------------- \u2713 IT Study ...",
+    "title": "Security+ Certification SY0-701 50 Practice Questions",
+    "url": "https://www.youtube.com/watch?v=yPqSLJG8Rt0",
+    "description": "Our CompTIA Classes: https://www.tiaexams.com/comptiacourses My Amazon Cram Guide: ...",
     "source": "YouTube",
     "score": 0,
     "topic": "Security+ full course",
@@ -1004,20 +992,9 @@
     ]
   },
   {
-    "title": "Security+ Certification SY0-701 50 Practice Questions",
-    "url": "https://www.youtube.com/watch?v=yPqSLJG8Rt0",
-    "description": "Our CompTIA Classes: https://www.tiaexams.com/comptiacourses My Amazon Cram Guide: ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "Security+ full course",
-    "exams": [
-      "Security+"
-    ]
-  },
-  {
-    "title": "CompTIA SECURITY+ FULL Practice Questions - SY0-701 EXAM PREP (2025)",
-    "url": "https://www.youtube.com/watch?v=u6G40H6JPok",
-    "description": "2025 Edition. Including EVERY section of the Exam Objectives for the CompTIA Security+ SY0-701 Exam.",
+    "title": "Professor Messer&#39;s Security+ SY0-701 Study Group - June 2026",
+    "url": "https://www.youtube.com/watch?v=exKf0cCWssM",
+    "description": "Professor Messer's Course Notes: https://professormesser.link/701notes Security+ Training Course Index: ...",
     "source": "YouTube",
     "score": 0,
     "topic": "Security+ full course",
@@ -1037,9 +1014,9 @@
     ]
   },
   {
-    "title": "The Ultimate Network+ N10-009 Study Guide - 100% Free",
-    "url": "https://www.youtube.com/watch?v=wd4lCBjttgU",
-    "description": "Our CompTIA Classes: https://www.tiaexams.com/comptiacourses Ensure to subscribe and like the video before downloading the ...",
+    "title": "How I Passed the Network+ Fast (Without Burning Out)",
+    "url": "https://www.youtube.com/watch?v=_3FWppyBz6A",
+    "description": "My Recommended IT Resources (affiliates help the channel at no extra cost) Coursera Certificates \u2022 Google IT Support ...",
     "source": "YouTube",
     "score": 0,
     "topic": "Network+ study guide",
@@ -1059,9 +1036,9 @@
     ]
   },
   {
-    "title": "CompTIA Network+ N10-009 Full Certification Course",
-    "url": "https://www.youtube.com/watch?v=CY4hn70K3r8",
-    "description": "This is the animated CompTIA Network+ N10-009 Certification Course. Download my CompTIA Net+ (N10-009) study guide ...",
+    "title": "The Ultimate Network+ N10-009 Study Guide - 100% Free",
+    "url": "https://www.youtube.com/watch?v=wd4lCBjttgU",
+    "description": "Our CompTIA Classes: https://www.tiaexams.com/comptiacourses Ensure to subscribe and like the video before downloading the ...",
     "source": "YouTube",
     "score": 0,
     "topic": "Network+ study guide",
@@ -1070,31 +1047,9 @@
     ]
   },
   {
-    "title": "How I Passed the Network+ Fast (Without Burning Out)",
-    "url": "https://www.youtube.com/watch?v=_3FWppyBz6A",
-    "description": "My Recommended IT Resources (affiliates help the channel at no extra cost) Coursera Certificates \u2022 Google IT Support ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "Network+ study guide",
-    "exams": [
-      "Network+"
-    ]
-  },
-  {
-    "title": "How I Passed Network+ N10-009, Exam Tips and Brain Dump",
-    "url": "https://www.youtube.com/watch?v=RIlB57o86Uw",
-    "description": "Our CompTIA Classes: https://www.tiaexams.com/comptiacourses My Udemy class for CompTIA Network+ N10-009 ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "Network+ study guide",
-    "exams": [
-      "Network+"
-    ]
-  },
-  {
-    "title": "How I Passed The CompTIA Network+ in 3 Weeks (Complete Study Guide &amp; Resources)",
-    "url": "https://www.youtube.com/watch?v=svq_vp6dKF0",
-    "description": "Looking to pass your CompTIA Network+ (N10-009) fast? This video breaks down my proven 3-week study plan with structure, ...",
+    "title": "How to PASS the CompTIA Network+ in 2026 on Your FIRST Try!",
+    "url": "https://www.youtube.com/watch?v=j_bz7ku0V3I",
+    "description": "Hello! In This video, I'll show you the best study methods and tips to pass the CompTIA Network+ exam. Enjoy! Linktree: ...",
     "source": "YouTube",
     "score": 0,
     "topic": "Network+ study guide",
@@ -1114,6 +1069,39 @@
     ]
   },
   {
+    "title": "How I Passed The CompTIA Network+ in 3 Weeks (Complete Study Guide &amp; Resources)",
+    "url": "https://www.youtube.com/watch?v=svq_vp6dKF0",
+    "description": "Looking to pass your CompTIA Network+ (N10-009) fast? This video breaks down my proven 3-week study plan with structure, ...",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "Network+ study guide",
+    "exams": [
+      "Network+"
+    ]
+  },
+  {
+    "title": "100 Network+ Practice Questions, Exam N10-009",
+    "url": "https://www.youtube.com/watch?v=T1_pf-7k2E0",
+    "description": "Our CompTIA Classes: https://www.tiaexams.com/comptiacourses Here is 100 Network+ Practice Questions for N10-009.",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "Network+ study guide",
+    "exams": [
+      "Network+"
+    ]
+  },
+  {
+    "title": "Network+ Study Plan For 2026. Pass on Your First Try!",
+    "url": "https://www.youtube.com/watch?v=MspBJ0d-Q3c",
+    "description": "Paul Browning shares his insights on how to pass your CompTIA Network+, providing valuable exam preparation advice.",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "Network+ study guide",
+    "exams": [
+      "Network+"
+    ]
+  },
+  {
     "title": "Know this to pass your Network+",
     "url": "https://www.youtube.com/watch?v=t4ty2L9VaC0",
     "description": "",
@@ -1125,42 +1113,9 @@
     ]
   },
   {
-    "title": "How to PASS the CompTIA Network+ On Your FIRST Try!",
-    "url": "https://www.youtube.com/watch?v=j_bz7ku0V3I",
-    "description": "Hello! In This video, I'll show you the best study methods and tips to pass the CompTIA Network+ exam. Enjoy! Linktree: ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "Network+ study guide",
-    "exams": [
-      "Network+"
-    ]
-  },
-  {
-    "title": "CompTIA A+ 220-1201 Full Course - NEW for 2025! (FREE)",
-    "url": "https://www.youtube.com/watch?v=TpvftblvOzc",
-    "description": "",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "CompTIA A+ course free",
-    "exams": [
-      "A+"
-    ]
-  },
-  {
     "title": "CompTIA A+ Core 1 (220-1201) - Full-Length Training Video -  Provided FREE By Certification Cynergy",
     "url": "https://www.youtube.com/watch?v=KJxi6Upksqs",
     "description": "This free full-length training course video will cover all CompTIA A+ Core 1 exam topics in a series of easy to understand short ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "CompTIA A+ course free",
-    "exams": [
-      "A+"
-    ]
-  },
-  {
-    "title": "How I Passed My CompTIA A+ In 1 Month!!!",
-    "url": "https://www.youtube.com/watch?v=ytU9gqF2V6c",
-    "description": "SUBSCRIBE and i will give you 2.5 cookies Exam Objectives: ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CompTIA A+ course free",
@@ -1180,9 +1135,20 @@
     ]
   },
   {
-    "title": "CompTIA A+ Core 1 (220-1101) - Full-Length Training Video -  Provided FREE By Certification Cynergy",
-    "url": "https://www.youtube.com/watch?v=7jEnfQm2QBE",
-    "description": "This free full-length training course video will cover all CompTIA A+ Core 1 exam topics in a series of easy to understand short ...",
+    "title": "CompTIA A+ 220-1201 Full Course - NEW for 2025! (FREE)",
+    "url": "https://www.youtube.com/watch?v=TpvftblvOzc",
+    "description": "",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "CompTIA A+ course free",
+    "exams": [
+      "A+"
+    ]
+  },
+  {
+    "title": "How I Passed My CompTIA A+ In 1 Month!!!",
+    "url": "https://www.youtube.com/watch?v=ytU9gqF2V6c",
+    "description": "SUBSCRIBE and i will give you 2.5 cookies Exam Objectives: ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CompTIA A+ course free",
@@ -1213,9 +1179,9 @@
     ]
   },
   {
-    "title": "CompTIA A+ Core 2 (220-1202) - Full-Length Training Video -  Provided FREE By Certification Cynergy",
-    "url": "https://www.youtube.com/watch?v=qMaWAVYBco4",
-    "description": "This free full-length training course video will cover all CompTIA A+ Core 2 exam topics in a series of easy to understand short ...",
+    "title": "CompTIA A+ Core 1 (220-1101) - Full-Length Training Video -  Provided FREE By Certification Cynergy",
+    "url": "https://www.youtube.com/watch?v=7jEnfQm2QBE",
+    "description": "This free full-length training course video will cover all CompTIA A+ Core 1 exam topics in a series of easy to understand short ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CompTIA A+ course free",
@@ -1246,9 +1212,20 @@
     ]
   },
   {
-    "title": "CASP+ vs CISSP | I Think I Chose The Wrong Cert!",
-    "url": "https://www.youtube.com/watch?v=Tv1W5sXz0xA",
-    "description": "After 2 weeks of studying and practice, I think I made a mistake choosing to take the CASP+. In this video, I'll tell you why.",
+    "title": "How to Pass Your CompTIA A+ Exams in 2026",
+    "url": "https://www.youtube.com/watch?v=AIfIA7hEgrw",
+    "description": "Professor Messer's Practice Exams: https://professormesser.link/1201exams Professor Messer's Course Notes: ...",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "CompTIA A+ course free",
+    "exams": [
+      "A+"
+    ]
+  },
+  {
+    "title": "Five CRUCIAL Tips to Ace your CASP+ Exam | Part- 1 #trending #crucialtips #cybersecurityengineer",
+    "url": "https://www.youtube.com/watch?v=AAgvsqLn1FA",
+    "description": "Five CRUCIAL Tips to Ace your CASP+ Exam | Pulse of Cyber Command If you would like to know the format of the CASP+ exam, ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CASP+ study",
@@ -1257,9 +1234,9 @@
     ]
   },
   {
-    "title": "Comptia CASP+ ! Complete Course Videos Workbook And Exams",
-    "url": "https://www.youtube.com/watch?v=nACIFdeD55M",
-    "description": "Comptia CASP+ ! Complete Course Videos Workbook And Exams Are you ready to take your IT security career to the next level?",
+    "title": "Comptia CASP+ CAS-004 Certification Study Guide  -  CASP Certification Video",
+    "url": "https://www.youtube.com/watch?v=DKvDe6YpkDc",
+    "description": "Click the next link to discover more about \"comptia casp+ cas-004 certification study guide\" , PLEASE visit: https://testdumps.org ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CASP+ study",
@@ -1268,9 +1245,9 @@
     ]
   },
   {
-    "title": "30 Something Days of CASP+ | Study Strategy | Day 1",
-    "url": "https://www.youtube.com/watch?v=tyWm5kI91uI",
-    "description": "If you're a cybersecurity professional who wants to be instantly identified for your knowledge and technical prowess, having a ...",
+    "title": "Five CRUCIAL Tips to Ace your CASP+ Exam | part-2 #trending #cybersecurityengineer #cybersecurity",
+    "url": "https://www.youtube.com/watch?v=ToNqxMert0s",
+    "description": "Five CRUCIAL Tips to Ace your CASP+ Exam | Pulse of Cyber Command If you would like to know the format of the CASP+ exam, ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CASP+ study",
@@ -1279,9 +1256,9 @@
     ]
   },
   {
-    "title": "30 Something Days of CASP+ | WEEK 1 | The Study Plan",
-    "url": "https://www.youtube.com/watch?v=QpfsbdfYLj4",
-    "description": "In this Week 1 video I review my Mural, my study resources (so far) and potential cyber games to include in my study materials for ...",
+    "title": "CompTIA CASP+: Everything you need to know about the exam | Infosec Edge Webcast",
+    "url": "https://www.youtube.com/watch?v=lwHpXOkyUQs",
+    "description": "Get your free CompTIA CASP+ resources: \u2014 Cybersecurity Salary Guide: ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CASP+ study",
@@ -1290,53 +1267,9 @@
     ]
   },
   {
-    "title": "CASP+ | Administrative &amp; Technical Security Policy | Exam Study Strategy",
-    "url": "https://www.youtube.com/watch?v=4_XJdqG9tJI",
-    "description": "While studying for the CASP+, I've seen questions that address security policies. Sometimes they're talking about administrative ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "CASP+ study",
-    "exams": [
-      "CASP+"
-    ]
-  },
-  {
-    "title": "Is the CompTIA SecurityX Worth It? - My Experience Taking the Exam",
-    "url": "https://www.youtube.com/watch?v=6vFl6P6bxhE",
-    "description": "Hello! This video goes over the CompTIA SecurityX Certification (Formerly known as CASP+). I'll be giving an overview of the ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "CASP+ study",
-    "exams": [
-      "CASP+"
-    ]
-  },
-  {
-    "title": "First Look: Updated CompTIA CASP+ (CAS-004) | ITProTV Webinar Teaser",
-    "url": "https://www.youtube.com/watch?v=nMzPScMTdTE",
-    "description": "Interested in a CASP+ certification? View the full webinar at: https://go.itpro.tv/first-look CASP+ is the only hands-on, ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "CASP+ study",
-    "exams": [
-      "CASP+"
-    ]
-  },
-  {
-    "title": "The Ultimate CASP+ Study Guide",
-    "url": "https://www.youtube.com/watch?v=ZRMC3M-jROw",
-    "description": "Are you preparing for the SecurityX exam and need a structured study guide to help you pass? This video breaks down key ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "CASP+ study",
-    "exams": [
-      "CASP+"
-    ]
-  },
-  {
-    "title": "CASP+ | Network Interface Card (NIC) | NIC Configuration | Study Strategy",
-    "url": "https://www.youtube.com/watch?v=cHT6GwFZ9LA",
-    "description": "Network Interface Cards (NICs) allows both wired and wireless communications. They facilitate communications between ...",
+    "title": "JWJ - CASP+ CAS-004 Study Sessions Ep 1 - Meet the author | Book Discount Code | Giveaway",
+    "url": "https://www.youtube.com/watch?v=_7Le1mBCkUo",
+    "description": "Support the stream: https://streamlabs.com/cyber_insecurity Java With Josh is pivoting from pentesting to security architecture, ...",
     "source": "YouTube",
     "score": 0,
     "topic": "CASP+ study",
@@ -1356,6 +1289,50 @@
     ]
   },
   {
+    "title": "Comptia CASP+ ! Complete Course Videos Workbook And Exams",
+    "url": "https://www.youtube.com/watch?v=nACIFdeD55M",
+    "description": "Comptia CASP+ ! Complete Course Videos Workbook And Exams Are you ready to take your IT security career to the next level?",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "CASP+ study",
+    "exams": [
+      "CASP+"
+    ]
+  },
+  {
+    "title": "Course Preview - CompTIA Advanced Security Practitioner (CASP+)",
+    "url": "https://www.youtube.com/watch?v=MzQXg1TqrSQ",
+    "description": "Looking to take your security skills to the next level? The CASP+ covers the technical knowledge and skills required to ...",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "CASP+ study",
+    "exams": [
+      "CASP+"
+    ]
+  },
+  {
+    "title": "30 Something Days of CASP+ | Study Strategy | Day 1",
+    "url": "https://www.youtube.com/watch?v=tyWm5kI91uI",
+    "description": "If you're a cybersecurity professional who wants to be instantly identified for your knowledge and technical prowess, having a ...",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "CASP+ study",
+    "exams": [
+      "CASP+"
+    ]
+  },
+  {
+    "title": "CASP+ Practice Exam Questions 1-25",
+    "url": "https://www.youtube.com/watch?v=953geqpByOc",
+    "description": "CompTIA SecurityX (formerly CASP+) prep for advanced cybersecurity pros. This channel covers enterprise security architecture, ...",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "CASP+ study",
+    "exams": [
+      "CASP+"
+    ]
+  },
+  {
     "title": "CompTIA PenTest+ Full Course - FREE [11 Hours] PT0-002",
     "url": "https://www.youtube.com/watch?v=WczBlBjoQeI",
     "description": "A complete CompTIA PentTest+ course featuring theory and follow-along labs. cyber security tutorial top 10 cyber security ...",
@@ -1367,9 +1344,9 @@
     ]
   },
   {
-    "title": "How I Passed CompTIA PenTest+ (PT0-003) | Exam Tips &amp; My Full Experience",
-    "url": "https://www.youtube.com/watch?v=--eQ78yJAM4",
-    "description": "Cybersecurity Career Resources Cybersecurity Career Builder Bundle (Notion Templates) Everything you need to crush your ...",
+    "title": "CompTIA PenTest+ Full Course (PT0-003) | 1 of 12 | Think Like a Hacker",
+    "url": "https://www.youtube.com/watch?v=3EbGbrIwjQA",
+    "description": "Welcome to the first video in our comprehensive study course for the CompTIA PenTest+ (PT0-003) certification!",
     "source": "YouTube",
     "score": 0,
     "topic": "PenTest+ course",
@@ -1378,23 +1355,9 @@
     ]
   },
   {
-    "title": "IT Security Certifications: CySA+ vs PenTest+ vs CISSP #cybersecurity",
-    "url": "https://www.youtube.com/watch?v=YhCvNARSPo4",
-    "description": "If you've already passed the CompTIA Security+ exam, and wondering what certification you should take next, here's a look at ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "PenTest+ course",
-    "exams": [
-      "CySA+",
-      "Security+",
-      "A+",
-      "PenTest+"
-    ]
-  },
-  {
-    "title": "Watch First Before Taking The CompTIA PenTest+ PT0-003 Exam",
-    "url": "https://www.youtube.com/watch?v=y52B774NJSA",
-    "description": "cybersecurity #pentesting #pentester #redteam #comptia #comptiasecurity #informationsecurity #informationtechnology.",
+    "title": "CompTIA Pentest+ (PT0-001): Complete Course &amp; Practice Exam",
+    "url": "https://www.youtube.com/watch?v=OP5-iWEvFTg",
+    "description": "Get the full-course for just $9.99 at https://www.udemy.com/pentestplus/?couponCode=YOUTUBE10 ** Taught by a Best Selling ...",
     "source": "YouTube",
     "score": 0,
     "topic": "PenTest+ course",
@@ -1403,9 +1366,9 @@
     ]
   },
   {
-    "title": "CompTIA PenTest+ PT0-003 (V3) Certification Exam Full Course Vol. 4.3",
-    "url": "https://www.youtube.com/watch?v=o3qR3wGyrDU",
-    "description": "Break Into Offensive Security \u2013 CompTIA PenTest+ PT0-003 (V3) Build real-world penetration testing skills with CompTIA ...",
+    "title": "CompTIA PenTest+ Full Course (PT0-003) | 2 of 12 | The Rules of Engagement",
+    "url": "https://www.youtube.com/watch?v=kOm8l4RCEWE",
+    "description": "Welcome to Chapter 2 of our comprehensive CompTIA PenTest+ (PT0-003) study course! This chapter is critical for any aspiring ...",
     "source": "YouTube",
     "score": 0,
     "topic": "PenTest+ course",
@@ -1414,9 +1377,9 @@
     ]
   },
   {
-    "title": "your first Hacking certification (PenTest+)",
-    "url": "https://www.youtube.com/watch?v=EY-Scg1z6zA",
-    "description": "Looking to get your first Hacking certification? Consider the CompTIA PenTest+. ENTER TO WIN a CompTIA ...",
+    "title": "Full CompTIA PenTest+ (PT0-003) Module 1 | Engagement Management | CompTIA PenTest+ Exam Prep Course",
+    "url": "https://www.youtube.com/watch?v=trf5PESE4XQ",
+    "description": "To get the Course Notes & Practice Questions, Join Hackaholics Anonymous as an Agent or Above: ...",
     "source": "YouTube",
     "score": 0,
     "topic": "PenTest+ course",
@@ -1425,42 +1388,53 @@
     ]
   },
   {
-    "title": "CompTIA PenTest+ PT0-003 (V3) Certification Exam Full Course Vol. 4.1",
-    "url": "https://www.youtube.com/watch?v=5i7kecwrXAM",
-    "description": "Break Into Offensive Security \u2013 CompTIA PenTest+ PT0-003 (V3) Build real-world penetration testing skills with CompTIA ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "PenTest+ course",
-    "exams": [
-      "PenTest+"
-    ]
-  },
-  {
-    "title": "CompTIA PenTest+ PT0-003 (V3) Certification Exam Full Course Vol. 1.1",
-    "url": "https://www.youtube.com/watch?v=oJtwr3EGVA8",
-    "description": "Break Into Offensive Security \u2013 CompTIA PenTest+ PT0-003 (V3) Build real-world penetration testing skills with CompTIA ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "PenTest+ course",
-    "exams": [
-      "PenTest+"
-    ]
-  },
-  {
-    "title": "CompTIA PenTest+ PT0-003 (V3) Certification Exam Full Course Vol. 5.3",
-    "url": "https://www.youtube.com/watch?v=cSdCqI6X64A",
-    "description": "Break Into Offensive Security \u2013 CompTIA PenTest+ PT0-003 (V3) Build real-world penetration testing skills with CompTIA ...",
-    "source": "YouTube",
-    "score": 0,
-    "topic": "PenTest+ course",
-    "exams": [
-      "PenTest+"
-    ]
-  },
-  {
-    "title": "I passed the Pentest+, and you can too (for cheap)",
-    "url": "https://www.youtube.com/watch?v=6vFeEY_8Qf0",
+    "title": "How to Pass the Pentest+ (Cheap &amp; Easy)",
+    "url": "https://www.youtube.com/watch?v=Wa7NOdlKOps",
     "description": "Are you preparing for the CompTIA PenTest+ (PT0-002) (or PT0-003) exam and looking for the best tips to pass on your first try?",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "PenTest+ course",
+    "exams": [
+      "PenTest+"
+    ]
+  },
+  {
+    "title": "CompTIA PenTest+ PT0-003 (V3) Certification Exam Full Course Vol. 5.2",
+    "url": "https://www.youtube.com/watch?v=jQp3joc3Ok4",
+    "description": "Break Into Offensive Security \u2013 CompTIA PenTest+ PT0-003 (V3) Build real-world penetration testing skills with CompTIA ...",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "PenTest+ course",
+    "exams": [
+      "PenTest+"
+    ]
+  },
+  {
+    "title": "How to Pass the CompTIA PenTest+ (PT0-003)",
+    "url": "https://www.youtube.com/watch?v=sgNnGGxWtIQ",
+    "description": "Learn everything you need to know to pass the CompTIA PenTest+ certification exam from the exam objectives and study ...",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "PenTest+ course",
+    "exams": [
+      "PenTest+"
+    ]
+  },
+  {
+    "title": "CompTIA PenTest+ (PT0-003) | Complete Ethical Hacking Course with Certification",
+    "url": "https://www.youtube.com/watch?v=cew3j6CR0S0",
+    "description": "CompTIA PenTest+ (PT0-003) | Complete Ethical Hacking Course Take your cybersecurity skills to the next level with this ...",
+    "source": "YouTube",
+    "score": 0,
+    "topic": "PenTest+ course",
+    "exams": [
+      "PenTest+"
+    ]
+  },
+  {
+    "title": "Metasploit Basics For Beginners | COMPTIA Pentest+ Course Preparation TryHackMe",
+    "url": "https://www.youtube.com/watch?v=BA_xV51zOxk",
+    "description": "Live Detection Rules https://sigmawatch.motasem-notes.net/ Github https://github.com/motasemhamdannotes Wiki ...",
     "source": "YouTube",
     "score": 0,
     "topic": "PenTest+ course",
